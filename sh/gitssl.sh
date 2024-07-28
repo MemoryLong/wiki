@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#sudo touch gitssl.sh
+#chmod +x gitssl.sh
 # 变量
 KEYNAME="webserver"
 
