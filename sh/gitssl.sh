@@ -6,7 +6,7 @@
 KEYNAME="webserver"
 
 # 生成新的 SSH 密钥
-ssh-keygen -t $KEYNAME -b 4096 -C "haifeng222222@sina.com"
+ssh-keygen -t rsa -b 4096 -C "haifeng222222@sina.com"
 
 # 添加 SSH 密钥到 SSH 代理
 eval "$(ssh-agent -s)"
